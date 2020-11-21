@@ -1,7 +1,7 @@
 # ----------------------------------------------- Base Docker Image -----------------------------------------------
 FROM nvidia/cuda:10.0-devel-ubuntu18.04
 
-ENV PYTORCH_VERSION=1.1.0
+ENV PYTORCH_VERSION=1.6.0
 ENV TORCHVISION_VERSION=0.3.0
 ENV CUDNN_VERSION=7.6.0.64-1+cuda10.0
 ENV NCCL_VERSION=2.4.7-1+cuda10.0
